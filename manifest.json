@@ -1,0 +1,11 @@
+{
+  "name": "Auto Cookie Copy",
+  "description": "Copies cookies from one host to another",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_permissions": ["<all_urls>"],
+  "permissions": ["cookies"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
